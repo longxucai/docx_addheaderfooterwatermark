@@ -334,10 +334,11 @@ public class MyXWPFHeaderFooterPolicy {
         shape.setSpid("_x0000_s102" + (4 + idx));
         shape.setType("#_x0000_t136");
         //shape.setStyle("position:absolute;margin-left:0;margin-top:0;width:415pt;height:207.5pt;z-index:-251654144;mso-wrap-edited:f;mso-position-horizontal:center;mso-position-horizontal-relative:margin;mso-position-vertical:center;mso-position-vertical-relative:margin");
-        shape.setStyle("position:absolute;margin-left:0;margin-top:0;width:415pt;height:207.5pt;z-index:-251654144;mso-wrap-edited:f;mso-position-horizontal:center;mso-position-horizontal-relative:margin;mso-position-vertical:center;mso-position-vertical-relative:margin;rotation:315;height:30pt");
+        //shape.setStyle("position:absolute;margin-left:0;margin-top:0;width:415pt;height:207.5pt;z-index:-251654144;mso-wrap-edited:f;mso-position-horizontal:center;mso-position-horizontal-relative:margin;mso-position-vertical:center;mso-position-vertical-relative:margin;rotation:315;height:30pt");
+        shape.setStyle("width:200pt;rotation:0;height:12pt");
         shape.setWrapcoords("616 5068 390 16297 39 16921 -39 17155 7265 17545 7186 17467 -39 17467 18904 17467 10507 17467 8710 17545 18904 17077 18787 16843 18358 16297 18279 12554 19178 12476 20701 11774 20779 11228 21131 10059 21248 8811 21248 7563 20975 6316 20935 5380 19490 5146 14022 5068 2616 5068");
         //shape.setFillcolor("black");
-        shape.setFillcolor("#d8d8d8");
+        shape.setFillcolor("#555555");
         shape.setStroked(STTrueFalse.FALSE);
         CTTextPath shapeTextPath = shape.addNewTextpath();
         shapeTextPath.setStyle("font-family:&quot;Cambria&quot;;font-size:1pt");
