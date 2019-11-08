@@ -6,7 +6,7 @@ public class Main {
 /*
         //docx加页眉
         try {
-            DocxOperation.docxAddHeader("F:\\创梦广告平台合作协议（开发者）_V1_SL0170829_clean_new.docx","F:\\b.docx", "合同编号：0000000000000###########000011");
+            DocxOperation.docxAddHeader("F:\\a.docx","F:\\b.docx", "合同编号：0000000000000###########000011");
         } catch (Exception ex) {
             ex.printStackTrace();
             return;
