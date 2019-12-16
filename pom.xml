@@ -24,6 +24,19 @@
             <version>5.2.0</version>
         </dependency>
 
+
+        <dependency>
+            <groupId>com.aspose.words</groupId>
+            <artifactId>aspose-words</artifactId>
+            <version>19.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/aspose-words-19.1-jdk16.jar
+            </systemPath>
+        </dependency>
+
+
+
+
     </dependencies>
 
 
