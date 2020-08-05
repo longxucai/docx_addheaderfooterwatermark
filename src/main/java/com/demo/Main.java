@@ -23,7 +23,7 @@ public class Main {
         }
 */
 
-
+/*
         //aspose docx加水印
         try {
             AsposeOperation.docxAddWatermark("F:\\w.doc","F:\\xx.docx", "合同编号：888888888###888888");
@@ -31,12 +31,12 @@ public class Main {
             ex.printStackTrace();
             return;
         }
-
+*/
 
 
         //aspose docx加页眉
         try {
-            AsposeOperation.docxAddHeader("F:\\xx.docx","F:\\xx.docx", "合同编号：0000000000000###########000012");
+            AsposeOperation.docxAddHeader("F:\\6.doc","F:\\xx.docx", "合同编号：0000000000000###########000012");
         } catch (Exception ex) {
             ex.printStackTrace();
             return;
